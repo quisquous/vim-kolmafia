@@ -11,87 +11,107 @@ endif
 
 " This was munged from http://wiki.kolmafia.us/index.php?title=Ash_Functions
 " FIXME: auto-generate from source and better format function list
-syn keyword ashFunction abort add_item_condition adv1 adventure
-syn keyword ashFunction appearance_rates append append_replacement append_tail
-syn keyword ashFunction attack autosell autosell_price available_amount
-syn keyword ashFunction batch_close batch_open black_market_available
-syn keyword ashFunction boolean_modifier boolean_modifier buffed_hit_stat buy
-syn keyword ashFunction buy can_drink can_eat can_equip can_interact ceil
-syn keyword ashFunction chamber change_mcd char_at chat_clan chat_clan
-syn keyword ashFunction chat_macro chat_notify chat_private class_modifier
-syn keyword ashFunction class_modifier clear cli_execute closet_amount
-syn keyword ashFunction combat_mana_cost_modifier combat_rate_modifier
-syn keyword ashFunction contains_text council count craft creatable_amount
-syn keyword ashFunction create create_matcher current_hit_stat current_mcd
-syn keyword ashFunction daily_special damage_absorption_percent
-syn keyword ashFunction damage_reduction delete disable dispensary_available
-syn keyword ashFunction display_amount drink eat eatsilent effect_modifier
-syn keyword ashFunction effect_modifier elemental_resistance
-syn keyword ashFunction elemental_resistance enable end enthrone_familiar
-syn keyword ashFunction entity_decode entity_encode entryway equip
-syn keyword ashFunction equipped_amount equipped_item expected_damage
-syn keyword ashFunction experience_bonus expression_eval extract_items
-syn keyword ashFunction extract_meat familiar_equipment
-syn keyword ashFunction familiar_equipped_equipment familiar_weight file_to_map
-syn keyword ashFunction find floor form_field fullness_limit
-syn keyword ashFunction galaktik_cures_discounted gameday_to_int
-syn keyword ashFunction gameday_to_string get_campground get_ccs_action
-syn keyword ashFunction get_auto_attack get_counters get_dwelling
-syn keyword ashFunction get_ingredients get_inventory get_monsters get_power
-syn keyword ashFunction get_property get_related get_revision get_version group
-syn keyword ashFunction group_count group_string guardians
-syn keyword ashFunction guild_store_available have_bartender have_chef
-syn keyword ashFunction have_display have_effect have_equipped have_familiar
-syn keyword ashFunction have_mushroom_plot have_outfit have_shop have_skill
-syn keyword ashFunction hedgemaze hermit hidden_temple_unlocked
-syn keyword ashFunction hippy_store_available historical_age historical_price
-syn keyword ashFunction in_bad_moon in_hardcore in_moxie_sign in_muscle_sign
-syn keyword ashFunction in_mysticality_sign index_of inebriety_limit
-syn keyword ashFunction initiative_modifier insert is_displayable is_giftable
-syn keyword ashFunction is_goal is_integer is_npc_item is_online is_tradeable
-syn keyword ashFunction item_amount item_drop_modifier item_drops
-syn keyword ashFunction item_drops_array item_type last_index_of last_monster
-syn keyword ashFunction length load_html logprint mall_price mana_cost_modifier
-syn keyword ashFunction map_to_file max max maximize maximize meat_drop
-syn keyword ashFunction meat_drop_modifier min min mmg_bet_amount mmg_bet_owner
-syn keyword ashFunction mmg_bet_owner_id mmg_bet_taker mmg_bet_taker_id
-syn keyword ashFunction mmg_bet_winnings mmg_make_bet mmg_my_bets
-syn keyword ashFunction mmg_offered_bets mmg_retract_bet mmg_search
-syn keyword ashFunction mmg_take_bet mmg_visit mmg_wait_event modifier_eval
-syn keyword ashFunction monster_attack monster_defense monster_element
-syn keyword ashFunction monster_eval monster_hp monster_level_adjustment
-syn keyword ashFunction moon_light moon_phase mp_cost my_adventures
-syn keyword ashFunction my_ascensions my_basestat my_buffedstat my_class
-syn keyword ashFunction my_closet_meat my_daycount my_enthroned_familiar
-syn keyword ashFunction my_familiar my_fullness my_hash my_hp my_id
-syn keyword ashFunction my_inebriety my_level my_location my_maxhp my_maxmp
-syn keyword ashFunction my_meat my_mp my_name my_primestat my_spleen_use
-syn keyword ashFunction my_turncount now_to_string numeric_modifier
-syn keyword ashFunction numeric_modifier numeric_modifier numeric_modifier
-syn keyword ashFunction numeric_modifier outfit outfit_pieces overdrink print
-syn keyword ashFunction print_html pulls_remaining put_closet put_display
-syn keyword ashFunction put_shop put_stash random raw_damage_absorption
-syn keyword ashFunction refresh_stash refresh_status remove_item_condition
-syn keyword ashFunction replace replace_all replace_first replace_string
-syn keyword ashFunction replace_string reset restore_hp restore_mp
-syn keyword ashFunction retrieve_item round run_combat runaway session_logs
-syn keyword ashFunction set_auto_attack set_length set_location set_property
-syn keyword ashFunction shop_amount spleen_limit split_string square_root start
-syn keyword ashFunction stash_amount stat_bonus_today stat_bonus_tomorrow
-syn keyword ashFunction stat_modifier steal stills_available storage_amount
-syn keyword ashFunction string_modifier string_modifier substring take_closet
-syn keyword ashFunction take_display take_stash take_storage tavern throw_items
-syn keyword ashFunction time_to_string to_boolean to_class to_effect to_effect
-syn keyword ashFunction to_effect to_element to_familiar to_familiar to_float
-syn keyword ashFunction to_int to_item to_item to_item to_location to_location
-syn keyword ashFunction to_lower_case to_monster to_plural to_skill to_skill
-syn keyword ashFunction to_skill to_slot to_stat to_string to_upper_case to_url
-syn keyword ashFunction today_to_string truncate turns_per_cast turns_played
-syn keyword ashFunction url_decode url_encode use use_familiar use_skill
-syn keyword ashFunction use_skill user_confirm visit_url visit_url visit_url
-syn keyword ashFunction wait waitq weapon_hands weapon_type weight_adjustment
-syn keyword ashFunction white_citadel_available who_clan will_usually_dodge
-syn keyword ashFunction will_usually_miss write writeln contained
+syn keyword ashFunction abort add_item_condition adv1 adventure contained
+syn keyword ashFunction appearance_rates append append_replacement contained
+syn keyword ashFunction append_tail attack autosell autosell_price contained
+syn keyword ashFunction available_amount batch_close batch_open contained
+syn keyword ashFunction black_market_available boolean_modifier contained
+syn keyword ashFunction boolean_modifier buffed_hit_stat buy buy contained
+syn keyword ashFunction can_drink can_eat can_equip can_interact ceil contained
+syn keyword ashFunction chamber change_mcd char_at chat_clan contained
+syn keyword ashFunction chat_clan chat_macro chat_notify chat_private contained
+syn keyword ashFunction class_modifier class_modifier clear contained
+syn keyword ashFunction cli_execute closet_amount contained
+syn keyword ashFunction combat_mana_cost_modifier contained
+syn keyword ashFunction combat_rate_modifier contains_text council contained
+syn keyword ashFunction count craft creatable_amount create contained
+syn keyword ashFunction create_matcher current_hit_stat current_mcd contained
+syn keyword ashFunction daily_special damage_absorption_percent contained
+syn keyword ashFunction damage_reduction delete disable contained
+syn keyword ashFunction dispensary_available display_amount drink eat contained
+syn keyword ashFunction eatsilent effect_modifier effect_modifier contained
+syn keyword ashFunction elemental_resistance elemental_resistance contained
+syn keyword ashFunction enable end enthrone_familiar entity_decode contained
+syn keyword ashFunction entity_encode entryway equip equipped_amount contained
+syn keyword ashFunction equipped_item expected_damage contained
+syn keyword ashFunction experience_bonus expression_eval contained
+syn keyword ashFunction extract_items extract_meat familiar_equipment contained
+syn keyword ashFunction familiar_equipped_equipment familiar_weight contained
+syn keyword ashFunction file_to_map find floor form_field contained
+syn keyword ashFunction fullness_limit galaktik_cures_discounted contained
+syn keyword ashFunction gameday_to_int gameday_to_string contained
+syn keyword ashFunction get_campground get_ccs_action get_auto_attack contained
+syn keyword ashFunction get_counters get_dwelling get_ingredients contained
+syn keyword ashFunction get_inventory get_monsters get_power contained
+syn keyword ashFunction get_property get_related get_revision contained
+syn keyword ashFunction get_version group group_count group_string contained
+syn keyword ashFunction guardians guild_store_available contained
+syn keyword ashFunction have_bartender have_chef have_display contained
+syn keyword ashFunction have_effect have_equipped have_familiar contained
+syn keyword ashFunction have_mushroom_plot have_outfit have_shop contained
+syn keyword ashFunction have_skill hedgemaze hermit contained
+syn keyword ashFunction hidden_temple_unlocked hippy_store_available contained
+syn keyword ashFunction historical_age historical_price in_bad_moon contained
+syn keyword ashFunction in_hardcore in_moxie_sign in_muscle_sign contained
+syn keyword ashFunction in_mysticality_sign index_of inebriety_limit contained
+syn keyword ashFunction initiative_modifier insert is_displayable contained
+syn keyword ashFunction is_giftable is_goal is_integer is_npc_item contained
+syn keyword ashFunction is_online is_tradeable item_amount contained
+syn keyword ashFunction item_drop_modifier item_drops contained
+syn keyword ashFunction item_drops_array item_type last_index_of contained
+syn keyword ashFunction last_monster length load_html logprint contained
+syn keyword ashFunction mall_price mana_cost_modifier map_to_file max contained
+syn keyword ashFunction max maximize maximize meat_drop contained
+syn keyword ashFunction meat_drop_modifier min min mmg_bet_amount contained
+syn keyword ashFunction mmg_bet_owner mmg_bet_owner_id mmg_bet_taker contained
+syn keyword ashFunction mmg_bet_taker_id mmg_bet_winnings contained
+syn keyword ashFunction mmg_make_bet mmg_my_bets mmg_offered_bets contained
+syn keyword ashFunction mmg_retract_bet mmg_search mmg_take_bet contained
+syn keyword ashFunction mmg_visit mmg_wait_event modifier_eval contained
+syn keyword ashFunction monster_attack monster_defense contained
+syn keyword ashFunction monster_element monster_eval monster_hp contained
+syn keyword ashFunction monster_level_adjustment moon_light contained
+syn keyword ashFunction moon_phase mp_cost my_adventures contained
+syn keyword ashFunction my_ascensions my_basestat my_buffedstat contained
+syn keyword ashFunction my_class my_closet_meat my_daycount contained
+syn keyword ashFunction my_enthroned_familiar my_familiar my_fullness contained
+syn keyword ashFunction my_hash my_hp my_id my_inebriety my_level contained
+syn keyword ashFunction my_location my_maxhp my_maxmp my_meat my_mp contained
+syn keyword ashFunction my_name my_primestat my_spleen_use contained
+syn keyword ashFunction my_turncount now_to_string numeric_modifier contained
+syn keyword ashFunction numeric_modifier numeric_modifier contained
+syn keyword ashFunction numeric_modifier numeric_modifier outfit contained
+syn keyword ashFunction outfit_pieces overdrink print print_html contained
+syn keyword ashFunction pulls_remaining put_closet put_display contained
+syn keyword ashFunction put_shop put_stash random contained
+syn keyword ashFunction raw_damage_absorption refresh_stash contained
+syn keyword ashFunction refresh_status remove_item_condition replace contained
+syn keyword ashFunction replace_all replace_first replace_string contained
+syn keyword ashFunction replace_string reset restore_hp restore_mp contained
+syn keyword ashFunction retrieve_item round run_combat runaway contained
+syn keyword ashFunction session_logs set_auto_attack set_length contained
+syn keyword ashFunction set_location set_property shop_amount contained
+syn keyword ashFunction spleen_limit split_string square_root start contained
+syn keyword ashFunction stash_amount stat_bonus_today contained
+syn keyword ashFunction stat_bonus_tomorrow stat_modifier steal contained
+syn keyword ashFunction stills_available storage_amount contained
+syn keyword ashFunction string_modifier string_modifier substring contained
+syn keyword ashFunction take_closet take_display take_stash contained
+syn keyword ashFunction take_storage tavern throw_items contained
+syn keyword ashFunction time_to_string to_boolean to_class to_effect contained
+syn keyword ashFunction to_effect to_effect to_element to_familiar contained
+syn keyword ashFunction to_familiar to_float to_int to_item to_item contained
+syn keyword ashFunction to_item to_location to_location to_lower_case contained
+syn keyword ashFunction to_monster to_plural to_skill to_skill contained
+syn keyword ashFunction to_skill to_slot to_stat to_string contained
+syn keyword ashFunction to_upper_case to_url today_to_string truncate contained
+syn keyword ashFunction turns_per_cast turns_played url_decode contained
+syn keyword ashFunction url_encode use use_familiar use_skill contained
+syn keyword ashFunction use_skill user_confirm visit_url visit_url contained
+syn keyword ashFunction visit_url wait waitq weapon_hands weapon_type contained
+syn keyword ashFunction weight_adjustment white_citadel_available contained
+syn keyword ashFunction who_clan will_usually_dodge will_usually_miss contained
+syn keyword ashFunction write writeln contained
 
 " Built-in functions are not reserved words, so only match them when
 " followed by a parenthesis.
